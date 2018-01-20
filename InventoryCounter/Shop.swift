@@ -15,7 +15,7 @@ class Shop: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         inCart.text = "0"
-        Price.text = String(CurUser.UserItems[currentIndex].Cost)
+        Price.text = String(describing: CurUser.UserItems?[currentIndex].Cost)
         Cart.text = "0"
         // Do any additional setup after loading the view.
     }
@@ -25,7 +25,7 @@ class Shop: UIViewController {
     @IBOutlet weak var Cart: UILabel! //Cart price
     @IBOutlet weak var inCart: UILabel!
     @IBAction func Buy(_ sender: UITouch) {
-        CurUser.UserItems[currentIndex].restock(Amount: CartSize)
+        CurUser.UserItems?[currentIndex].restock(Amount: CartSize)
         CartSize = 0
         inCart.text = "0"
         Cart.text = "0"
@@ -35,7 +35,7 @@ class Shop: UIViewController {
     @IBAction func ItemEvent(_ sender: UIStepper) {
         CartSize = Int(sender.value)
         inCart.text = String(CartSize)
-        Cart.text = String(CartSize * CurUser.UserItems[currentIndex].Cost)
+        Cart.text = String(CartSize * CurUser.UserItems![currentIndex].Cost)
     }
     
     

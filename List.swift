@@ -7,7 +7,6 @@
 //
 
 import UIKit
-var CurUser = User(UserName: "Test")
 var currentIndex = 0
 class List: UIViewController {
 
@@ -15,8 +14,8 @@ class List: UIViewController {
     @IBOutlet weak var AddFood: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        CurUser.addItem(ItemName: "Beef", WarningNumber: 2)
-        Food.text = CurUser.UserItems[0].ItemName
+//        CurUser.addItem(ItemName: "Beef", WarningNumber: 2)
+//        Food.text = CurUser.UserItems![0].ItemName
         // Do any additional setup after loading the view.
     }
 

@@ -7,14 +7,14 @@
 //
 
 import Foundation
-class User{
-    var UserItems = [UserItem]()
+struct User {
+    var UserItems: [UserItem]?
     var UserName: String
-    init(UserName: String) {
-        self.UserName = UserName
+    
+    init(dictionary: [String:AnyObject]) {
+        UserItems = dictionary["userItems"] as! [UserItem]
+        UserName = dictionary["username"] as! String
     }
-    func addItem(ItemName: String, WarningNumber: Int){
-        UserItems.append(UserItem(ItemName: ItemName, WarningNumber: WarningNumber))
-    }
+    
 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		725BA7F9201343FC00796CE7 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BA7F6201343FB00796CE7 /* FoodDetailViewController.swift */; };
+		725BA7FA201343FC00796CE7 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BA7F7201343FB00796CE7 /* FoodTableViewCell.swift */; };
+		725BA7FB201343FC00796CE7 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BA7F8201343FB00796CE7 /* FoodTableViewController.swift */; };
 		727C2761201318F4007F69B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C2760201318F4007F69B3 /* AppDelegate.swift */; };
 		727C2763201318F4007F69B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C2762201318F4007F69B3 /* ViewController.swift */; };
 		727C2766201318F4007F69B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727C2764201318F4007F69B3 /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		5C053CF5904CDAD4E8AD0911 /* Pods-InventoryCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryCounter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InventoryCounter/Pods-InventoryCounter.debug.xcconfig"; sourceTree = "<group>"; };
+		725BA7F6201343FB00796CE7 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		725BA7F7201343FB00796CE7 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		725BA7F8201343FB00796CE7 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
 		727C275D201318F4007F69B3 /* InventoryCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727C2760201318F4007F69B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		727C2762201318F4007F69B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,12 +73,31 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		727C2754201318F4007F69B3 = {
+		725BA7FC2013440200796CE7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				725BA7F6201343FB00796CE7 /* FoodDetailViewController.swift */,
+				725BA7F7201343FB00796CE7 /* FoodTableViewCell.swift */,
+				725BA7F8201343FB00796CE7 /* FoodTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		725BA7FD20134CF900796CE7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				79FA72A7201319AF00B17A92 /* item.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		727C2754201318F4007F69B3 = {
+			isa = PBXGroup;
+			children = (
+				725BA7FD20134CF900796CE7 /* Model */,
 				79FA72AB20131BB800B17A92 /* User.swift */,
 				790AA5F2201333DE00DF79AA /* List.swift */,
+				725BA7FC2013440200796CE7 /* View Controllers */,
 				727C275F201318F4007F69B3 /* InventoryCounter */,
 				727C275E201318F4007F69B3 /* Products */,
 				444861AF9A758DAB8C135812 /* Pods */,
@@ -236,9 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				727C2763201318F4007F69B3 /* ViewController.swift in Sources */,
+				725BA7FB201343FC00796CE7 /* FoodTableViewController.swift in Sources */,
+				725BA7F9201343FC00796CE7 /* FoodDetailViewController.swift in Sources */,
 				79FA72A8201319AF00B17A92 /* item.swift in Sources */,
 				79FA72AC20131BB800B17A92 /* User.swift in Sources */,
 				790AA5F5201338E500DF79AA /* Shop.swift in Sources */,
+				725BA7FA201343FC00796CE7 /* FoodTableViewCell.swift in Sources */,
 				727C2761201318F4007F69B3 /* AppDelegate.swift in Sources */,
 				790AA5F3201333DE00DF79AA /* List.swift in Sources */,
 			);

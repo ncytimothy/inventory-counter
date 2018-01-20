@@ -21,16 +21,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         FirebaseApp.configure()
-        FoodName.text = CurUser.UserItems[currentIndex].ItemName
-        FoodCount.text = String(CurUser.UserItems[currentIndex].ItemCount)
-        CurUser.UserItems[currentIndex].Cost = Int(arc4random_uniform(10))
-        Cost.text = String(CurUser.UserItems[currentIndex].Cost)
+        FoodName.text = CurUser.UserItems?[currentIndex].ItemName
+        FoodCount.text = String(describing: CurUser.UserItems?[currentIndex].ItemCount)
+        CurUser.UserItems?[currentIndex].Cost = Int(arc4random_uniform(10))
+        Cost.text = String(describing: CurUser.UserItems?[currentIndex].Cost)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     @IBAction func Use(_ sender: UIButton) {
-        CurUser.UserItems[currentIndex].takeFood()
-        FoodCount.text = String(CurUser.UserItems[currentIndex].ItemCount)
+        CurUser.UserItems?[currentIndex].takeFood()
+        FoodCount.text = String(describing: CurUser.UserItems?[currentIndex].ItemCount)
     }
     
     override func didReceiveMemoryWarning() {
