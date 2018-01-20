@@ -15,6 +15,8 @@ class UserItem{
     init(ItemName: String , WarningNumber: Int) {
         self.ItemName = ItemName
         self.WarningNumber = WarningNumber
+
+        
     }
     func add_serving()  {
         self.ItemCount += 1
