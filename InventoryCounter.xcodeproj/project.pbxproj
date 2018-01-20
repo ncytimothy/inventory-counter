@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		727C2761201318F4007F69B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C2760201318F4007F69B3 /* AppDelegate.swift */; };
-		727C2763201318F4007F69B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C2762201318F4007F69B3 /* ViewController.swift */; };
+		727C2763201318F4007F69B3 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C2762201318F4007F69B3 /* FoodTableViewController.swift */; };
 		727C2766201318F4007F69B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727C2764201318F4007F69B3 /* Main.storyboard */; };
 		727C2768201318F4007F69B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727C2767201318F4007F69B3 /* Assets.xcassets */; };
 		727C276B201318F4007F69B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727C2769201318F4007F69B3 /* LaunchScreen.storyboard */; };
+		727C277620132C29007F69B3 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C277520132C29007F69B3 /* FoodTableViewCell.swift */; };
+		727C277C20133834007F69B3 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C277B20133834007F69B3 /* FoodDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		727C275D201318F4007F69B3 /* InventoryCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727C2760201318F4007F69B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		727C2762201318F4007F69B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		727C2762201318F4007F69B3 /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
 		727C2765201318F4007F69B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		727C2767201318F4007F69B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		727C276A201318F4007F69B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		727C276C201318F4007F69B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727C277520132C29007F69B3 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		727C277B20133834007F69B3 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		727C275F201318F4007F69B3 /* InventoryCounter */ = {
 			isa = PBXGroup;
 			children = (
+				727C277B20133834007F69B3 /* FoodDetailViewController.swift */,
+				727C277520132C29007F69B3 /* FoodTableViewCell.swift */,
 				727C2760201318F4007F69B3 /* AppDelegate.swift */,
-				727C2762201318F4007F69B3 /* ViewController.swift */,
+				727C2762201318F4007F69B3 /* FoodTableViewController.swift */,
 				727C2764201318F4007F69B3 /* Main.storyboard */,
 				727C2767201318F4007F69B3 /* Assets.xcassets */,
 				727C2769201318F4007F69B3 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				727C2763201318F4007F69B3 /* ViewController.swift in Sources */,
+				727C2763201318F4007F69B3 /* FoodTableViewController.swift in Sources */,
 				727C2761201318F4007F69B3 /* AppDelegate.swift in Sources */,
+				727C277620132C29007F69B3 /* FoodTableViewCell.swift in Sources */,
+				727C277C20133834007F69B3 /* FoodDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
