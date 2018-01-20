@@ -94,13 +94,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ias-KG-4bz"/>
                     </view>
-                    <connections>
-                        <outlet property="Amount" destination="v18-GV-lmz" id="ZgX-dX-p6C"/>
-                        <outlet property="Cart" destination="Xrg-Nn-jYn" id="FXo-sP-YNE"/>
-                        <outlet property="Price" destination="qjq-6u-brY" id="KDf-mb-XG6"/>
-                        <outlet property="Stepper" destination="4c2-AP-I8h" id="myR-kH-nPc"/>
-                        <outlet property="inCart" destination="z6h-zC-Dgs" id="CI2-hL-cbB"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HI1-IJ-Qrn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
