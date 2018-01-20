@@ -10,6 +10,7 @@ import Foundation
 class UserItem{
     var ItemName :String
     var ItemCount = 0
+    var Cost = 0
     var WarningNumber : Int
     init(ItemName: String , WarningNumber: Int) {
         self.ItemName = ItemName

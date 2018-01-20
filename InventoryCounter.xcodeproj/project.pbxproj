@@ -12,9 +12,11 @@
 		727C2766201318F4007F69B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727C2764201318F4007F69B3 /* Main.storyboard */; };
 		727C2768201318F4007F69B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727C2767201318F4007F69B3 /* Assets.xcassets */; };
 		727C276B201318F4007F69B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727C2769201318F4007F69B3 /* LaunchScreen.storyboard */; };
+		790AA5F3201333DE00DF79AA /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AA5F2201333DE00DF79AA /* List.swift */; };
+		790AA5F5201338E500DF79AA /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AA5F4201338E500DF79AA /* Shop.swift */; };
+		790AA5F72013419B00DF79AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 790AA5F62013419B00DF79AA /* GoogleService-Info.plist */; };
 		79FA72A8201319AF00B17A92 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA72A7201319AF00B17A92 /* item.swift */; };
 		79FA72AC20131BB800B17A92 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA72AB20131BB800B17A92 /* User.swift */; };
-		79FA72AE2013218F00B17A92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79FA72AD2013218F00B17A92 /* GoogleService-Info.plist */; };
 		DBCEF6073DF6BAD59F1A6127 /* Pods_InventoryCounter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FC7297880BE4B65A5F7D98 /* Pods_InventoryCounter.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,9 +29,11 @@
 		727C2767201318F4007F69B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		727C276A201318F4007F69B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		727C276C201318F4007F69B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790AA5F2201333DE00DF79AA /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		790AA5F4201338E500DF79AA /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		790AA5F62013419B00DF79AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		79FA72A7201319AF00B17A92 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = item.swift; path = InventoryCounter/SRC/item.swift; sourceTree = "<group>"; };
 		79FA72AB20131BB800B17A92 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = InventoryCounter/SRC/User.swift; sourceTree = "<group>"; };
-		79FA72AD2013218F00B17A92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "InventoryCounter/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2259B7CC53CD578BF112B29 /* Pods-InventoryCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryCounter.release.xcconfig"; path = "Pods/Target Support Files/Pods-InventoryCounter/Pods-InventoryCounter.release.xcconfig"; sourceTree = "<group>"; };
 		B5FC7297880BE4B65A5F7D98 /* Pods_InventoryCounter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InventoryCounter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,9 +70,9 @@
 		727C2754201318F4007F69B3 = {
 			isa = PBXGroup;
 			children = (
-				79FA72AD2013218F00B17A92 /* GoogleService-Info.plist */,
 				79FA72A7201319AF00B17A92 /* item.swift */,
 				79FA72AB20131BB800B17A92 /* User.swift */,
+				790AA5F2201333DE00DF79AA /* List.swift */,
 				727C275F201318F4007F69B3 /* InventoryCounter */,
 				727C275E201318F4007F69B3 /* Products */,
 				444861AF9A758DAB8C135812 /* Pods */,
@@ -88,7 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				727C2760201318F4007F69B3 /* AppDelegate.swift */,
+				790AA5F4201338E500DF79AA /* Shop.swift */,
 				727C2762201318F4007F69B3 /* ViewController.swift */,
+				790AA5F62013419B00DF79AA /* GoogleService-Info.plist */,
 				727C2764201318F4007F69B3 /* Main.storyboard */,
 				727C2767201318F4007F69B3 /* Assets.xcassets */,
 				727C2769201318F4007F69B3 /* LaunchScreen.storyboard */,
@@ -160,7 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				727C276B201318F4007F69B3 /* LaunchScreen.storyboard in Resources */,
-				79FA72AE2013218F00B17A92 /* GoogleService-Info.plist in Resources */,
+				790AA5F72013419B00DF79AA /* GoogleService-Info.plist in Resources */,
 				727C2768201318F4007F69B3 /* Assets.xcassets in Resources */,
 				727C2766201318F4007F69B3 /* Main.storyboard in Resources */,
 			);
@@ -232,7 +238,9 @@
 				727C2763201318F4007F69B3 /* ViewController.swift in Sources */,
 				79FA72A8201319AF00B17A92 /* item.swift in Sources */,
 				79FA72AC20131BB800B17A92 /* User.swift in Sources */,
+				790AA5F5201338E500DF79AA /* Shop.swift in Sources */,
 				727C2761201318F4007F69B3 /* AppDelegate.swift in Sources */,
+				790AA5F3201333DE00DF79AA /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8RS9W23TVG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = InventoryCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyng.InventoryCounter;
@@ -387,7 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8RS9W23TVG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = InventoryCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyng.InventoryCounter;
