@@ -13,5 +13,8 @@ class User{
     init(UserName: String) {
         self.UserName = UserName
     }
+    func addItem(ItemName: String, WarningNumber: Int){
+        UserItems.append(UserItem(ItemName: ItemName, WarningNumber: WarningNumber))
+    }
 }
 
