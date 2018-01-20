@@ -29,6 +29,7 @@ class Shop: UIViewController {
         CartSize = 0
         inCart.text = "0"
         Cart.text = "0"
+        Stepper.value = 0
     }
     
     @IBAction func ItemEvent(_ sender: UIStepper) {
