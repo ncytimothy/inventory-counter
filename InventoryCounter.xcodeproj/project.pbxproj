@@ -12,9 +12,14 @@
 		727C2766201318F4007F69B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727C2764201318F4007F69B3 /* Main.storyboard */; };
 		727C2768201318F4007F69B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727C2767201318F4007F69B3 /* Assets.xcassets */; };
 		727C276B201318F4007F69B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727C2769201318F4007F69B3 /* LaunchScreen.storyboard */; };
+		79FA72A8201319AF00B17A92 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA72A7201319AF00B17A92 /* item.swift */; };
+		79FA72AC20131BB800B17A92 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA72AB20131BB800B17A92 /* User.swift */; };
+		79FA72AE2013218F00B17A92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79FA72AD2013218F00B17A92 /* GoogleService-Info.plist */; };
+		DBCEF6073DF6BAD59F1A6127 /* Pods_InventoryCounter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FC7297880BE4B65A5F7D98 /* Pods_InventoryCounter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C053CF5904CDAD4E8AD0911 /* Pods-InventoryCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryCounter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InventoryCounter/Pods-InventoryCounter.debug.xcconfig"; sourceTree = "<group>"; };
 		727C275D201318F4007F69B3 /* InventoryCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727C2760201318F4007F69B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		727C2762201318F4007F69B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		727C2767201318F4007F69B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		727C276A201318F4007F69B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		727C276C201318F4007F69B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FA72A7201319AF00B17A92 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = item.swift; path = InventoryCounter/SRC/item.swift; sourceTree = "<group>"; };
+		79FA72AB20131BB800B17A92 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = InventoryCounter/SRC/User.swift; sourceTree = "<group>"; };
+		79FA72AD2013218F00B17A92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "InventoryCounter/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A2259B7CC53CD578BF112B29 /* Pods-InventoryCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryCounter.release.xcconfig"; path = "Pods/Target Support Files/Pods-InventoryCounter/Pods-InventoryCounter.release.xcconfig"; sourceTree = "<group>"; };
+		B5FC7297880BE4B65A5F7D98 /* Pods_InventoryCounter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InventoryCounter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBCEF6073DF6BAD59F1A6127 /* Pods_InventoryCounter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31F75C48E4B6F4C5D9C2E6DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC7297880BE4B65A5F7D98 /* Pods_InventoryCounter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		444861AF9A758DAB8C135812 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C053CF5904CDAD4E8AD0911 /* Pods-InventoryCounter.debug.xcconfig */,
+				A2259B7CC53CD578BF112B29 /* Pods-InventoryCounter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		727C2754201318F4007F69B3 = {
 			isa = PBXGroup;
 			children = (
+				79FA72AD2013218F00B17A92 /* GoogleService-Info.plist */,
+				79FA72A7201319AF00B17A92 /* item.swift */,
+				79FA72AB20131BB800B17A92 /* User.swift */,
 				727C275F201318F4007F69B3 /* InventoryCounter */,
 				727C275E201318F4007F69B3 /* Products */,
+				444861AF9A758DAB8C135812 /* Pods */,
+				31F75C48E4B6F4C5D9C2E6DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 727C276F201318F4007F69B3 /* Build configuration list for PBXNativeTarget "InventoryCounter" */;
 			buildPhases = (
+				DB7324CFE192C01CD462B4D0 /* [CP] Check Pods Manifest.lock */,
 				727C2759201318F4007F69B3 /* Sources */,
 				727C275A201318F4007F69B3 /* Frameworks */,
 				727C275B201318F4007F69B3 /* Resources */,
+				C59A54ACF10123AB618143CE /* [CP] Embed Pods Frameworks */,
+				DF3E023BD4687B162F7AAD1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				727C276B201318F4007F69B3 /* LaunchScreen.storyboard in Resources */,
+				79FA72AE2013218F00B17A92 /* GoogleService-Info.plist in Resources */,
 				727C2768201318F4007F69B3 /* Assets.xcassets in Resources */,
 				727C2766201318F4007F69B3 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +168,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C59A54ACF10123AB618143CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InventoryCounter/Pods-InventoryCounter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InventoryCounter/Pods-InventoryCounter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7324CFE192C01CD462B4D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InventoryCounter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3E023BD4687B162F7AAD1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InventoryCounter/Pods-InventoryCounter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		727C2759201318F4007F69B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				727C2763201318F4007F69B3 /* ViewController.swift in Sources */,
+				79FA72A8201319AF00B17A92 /* item.swift in Sources */,
+				79FA72AC20131BB800B17A92 /* User.swift in Sources */,
 				727C2761201318F4007F69B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +367,11 @@
 		};
 		727C2770201318F4007F69B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C053CF5904CDAD4E8AD0911 /* Pods-InventoryCounter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8FEPG5HWR5;
+				DEVELOPMENT_TEAM = 8RS9W23TVG;
 				INFOPLIST_FILE = InventoryCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyng.InventoryCounter;
@@ -287,10 +383,11 @@
 		};
 		727C2771201318F4007F69B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2259B7CC53CD578BF112B29 /* Pods-InventoryCounter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8FEPG5HWR5;
+				DEVELOPMENT_TEAM = 8RS9W23TVG;
 				INFOPLIST_FILE = InventoryCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyng.InventoryCounter;
