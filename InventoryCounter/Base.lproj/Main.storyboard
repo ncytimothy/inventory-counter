@@ -209,8 +209,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dws-CY-Nuf">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dws-CY-Nuf">
                                 <rect key="frame" x="148" y="468" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Order"/>
                                 <connections>
                                     <action selector="Buy:" destination="gDf-IX-tZC" eventType="touchUpInside" id="rhd-Te-WxU"/>
@@ -219,9 +220,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Sxa-ur-ama" firstAttribute="baseline" secondItem="Dws-CY-Nuf" secondAttribute="baseline" id="0eh-qr-iM9"/>
                             <constraint firstItem="YH2-Uh-4xa" firstAttribute="leading" secondItem="Ias-KG-4bz" secondAttribute="leading" constant="127" id="6Bb-6b-eSS"/>
-                            <constraint firstItem="Dws-CY-Nuf" firstAttribute="leading" secondItem="Ias-KG-4bz" secondAttribute="leading" constant="146" id="BCT-AY-HsK"/>
                             <constraint firstItem="YH2-Uh-4xa" firstAttribute="top" secondItem="Ias-KG-4bz" secondAttribute="top" constant="112" id="Vop-LA-Wo8"/>
                             <constraint firstItem="Sxa-ur-ama" firstAttribute="leading" secondItem="L2G-DC-tzf" secondAttribute="leading" constant="-108" id="Y8S-Wr-hVw"/>
                             <constraint firstItem="YH2-Uh-4xa" firstAttribute="centerX" secondItem="L2G-DC-tzf" secondAttribute="centerX" id="vvx-cS-bzo"/>

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import Firebase
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //FirebaseApp.configure()
+        FirebaseApp.configure()
         FoodName.text = CurUser.UserItems[currentIndex].ItemName
         FoodCount.text = String(CurUser.UserItems[currentIndex].ItemCount)
         CurUser.UserItems[currentIndex].Cost = Int(arc4random_uniform(10))
